@@ -7,7 +7,7 @@
     <?php
     
         
-        echo "Tu color favorito es el";
+        echo "Tu color favorito es el ";
         echo $_POST['colorFavorito'];
         echo "<h2>Tabla de multiplicar</h2>";
         

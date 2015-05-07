@@ -6,7 +6,9 @@
 
     <?php
     
-        echo "Tu color favorito es el $_POST['colorFavorito'].";
+        
+        echo "Tu color favorito es el";
+        echo $_POST['colorFavorito'];
         echo "<h2>Tabla de multiplicar</h2>";
         
         $numero = (int)$_POST['numero'];
