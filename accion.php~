@@ -7,7 +7,7 @@
         Usted es 
         <?php 
         if ((int)$_POST['edad'] < 18) {
-            echo "<br>Menor de edad";
+            echo "\nMenor de edad";
         }else{
             echo "Mayor de edad";
         }
